@@ -10,9 +10,40 @@
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
+    <header class="header">
+        <div class="row">
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+          <div class="logo-bar">
+            <div class="small-4 columns">
+              <div class="row">
+                <div class="small-4 columns">logo</div>
+                <div class="small-4 columns">avatar</div>
+                <div class="small-4 columns">username</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-bar">
+            <div class="small-4 columns">
+              <nav class="main-nav">
+                <ul class="row">
+                  <li class="small-12 medium-3 column"><a class="link" href="#">Home</a></li>
+                  <li class="small-12 medium-3 column"><a class="link" href="#">Analyse</a></li>
+                  <li class="small-12 medium-3 column"><a class="link" href="#">Lorem</a></li>
+                  <li class="small-12 medium-3 column"><a class="link" href="#">Ipsum</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="search-bar">
+            <div class="small-4 columns">
+              search
+            </div>
+          </div>
+
+        </div>
+      </header>  
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>
